@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.leftPlayer{
+    width: 10%;
+    height: 100%;
+    background-color: aliceblue;
+    float: left;
+    font-size: 60px;
+}
+.rightPlayer{
+    width: 10%;
+    height: 100%;
+    background-color: aliceblue;
+    float: left;
+    font-size: 60px;
+}
+.player{
+    width: 80%;
+    height: 10%;
+    background-color: red;
+    margin: auto;
+    position: relative;
+}
+.startLine{
+    width: 10%;
+    height: 5px;
+    background-color: black;
+    margin-top: 5px;
+    position: absolute;
+}
+.finishLine{
+    width: 10%;
+    height: 5px;
+    background-color: black;
+    margin-top: 5px;
+    position: absolute;
+    bottom: 100px;
+}
+.gameArea{
+    width: 80%;
+    height: 100%;
+    background-color: blueviolet;
+    float: left;
+}
+.wrapper{
+    max-width: 1024px;
+    margin: auto;
+}
+.one{
+    background-color: darkslateblue;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+.flag{
+    width: 10%;
+    height: 10%;
+    visibility: hidden;
+}
+a{
+    text-decoration: none;
+    padding: 20px 50px;
+    background-color: white;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 40px;
+}
+h2{
+    
+    font-size: 2em;
+    color: white;
+    margin-top: 20px;
+}
+.left-side{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.right-side{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+img{
+    width: 80%;
+    height: 80%;
+    margin-top: 20px;
+}
